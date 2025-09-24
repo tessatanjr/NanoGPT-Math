@@ -1,3 +1,5 @@
-# Please download the pretrained NanoGPT model on QA data from the [link](https://drive.google.com/file/d/1gIZw-HAB-tHtEYCmNugwlIV7R3WsgjjZ/view?usp=sharing), and place it into the folder `./sft`!
-
-# If you have any questions, please feel free to open an issue on GitHub, and I will respond.
+### Different training sets generated:
+pos_neg_pairs_wrong - negative egs contain wrong answers
+pos_neg_pairs -  all negative egs are sorry idk
+pos_neg_pairs_diffformat - contains 6x = 30 examples and x + 17 = 1 examples, neg egs are sorry idk
+pos_neg_pairs_diffformat_wrong - contains 6x = 30 examples and x + 17 = 1 examples, neg egs contain wrong ans
